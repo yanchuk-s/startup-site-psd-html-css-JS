@@ -216,6 +216,7 @@ logo{
 .services h2{
 	font-size: 20px;
 	color: #696969;
+	padding-top: 30px;
 }
 
 .services h5{
@@ -233,7 +234,7 @@ logo{
 	margin-top: 70px;
 }
 
-
+/* ABOUT US PART-------------------*/
 .aboutUs {
 	background-color: #eef1ec;
 	padding-top: 100px;
@@ -342,7 +343,7 @@ logo{
 
  /*CONTACT ICONS-----------------------  ENDDDDDDDDDDDDDDDDDDDDDDDD*/
 
-/* Reveal */
+/* Reveal MENU BOTTOM EFECTTTTTTTTTTTTTTTTTT */
 .hvr-reveal {
 	padding: 15px;
 	background: none;
@@ -382,7 +383,7 @@ logo{
 }
 
 
-
+/* SCROLL -----------------------------------------------*/
 #scrollup {
 	
 	margin-top: 200px;
@@ -406,6 +407,8 @@ cursor: pointer;
 	
 	list-style-type: none;
 }
+
+
 .topWindow {
     position: fixed;
    left: 40%;
@@ -418,6 +421,7 @@ cursor: pointer;
 
 
 
+/* HOVER PERSONAL------------------------------*/
 
 .hovereffect {
 	padding-top: 70px;
@@ -504,5 +508,114 @@ cursor: pointer;
 .hovereffect:hover h2 {
 	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
+}
+
+
+/* WORKS PART-----------------------------------------*/
+
+
+.works{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+
+}
+
+.works h1 {
+	font-size: 35px;
+	color: #696969;
+	font-weight: 500;
+}
+
+/*HOVER EFECT WORK---------------------- */
+
+.hovereffectTw {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: white;
+}
+
+.hovereffectTw .overlayTw {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.hovereffectTw img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffectTw:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffectTw h2 {
+  text-transform: uppercase;
+  color: #B22222;
+  text-align: center;
+  position: relative;
+  font-size: 19px;
+	font-weight: 600;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent;
+}
+
+.hovereffectTw h2:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #B22222;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+}
+
+.hovereffectTw:hover h2:after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffectTw a, .hovereffectTw p {
+  color: #B22222;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+	margin-top: 7px;
+}
+
+.hovereffectTw:hover a, .hovereffectTw:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
 }
 
