@@ -330,16 +330,16 @@ logo{
 }
  
 
-.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}  
+.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#070709;}  
 
 .social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;} 
 
-.social-icons .fa-instagram{background-color:#A1755C;}
+.social-icons .fa-instagram{background-color:#070709;}
 
-.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;} 
+.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#070709;} 
 
-.social-icons .fa-vk{background-color:#375474;}
-.social-icons .fa-weibo{background-color:#D72B2B;}
+.social-icons .fa-vk{background-color:#070709;}
+.social-icons .fa-weibo{background-color:#070709;}
 
  /*CONTACT ICONS-----------------------  ENDDDDDDDDDDDDDDDDDDDDDDDD*/
 
@@ -624,7 +624,7 @@ cursor: pointer;
 /*PARALAX PART-----------------*/
 .parallax{
 	width: auto;
-	height:360px;
+	height:auto;
 	background-image: url(../img/bg3.jpg);
 	 background-size: cover;
     background-attachment: fixed;
@@ -734,11 +734,28 @@ cursor: pointer;
 
 .clients{
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .clients ul li {
 	display: inline-block;
 	margin: 10px;
+}
+
+.contactss{
+	width: auto;
+	padding-top: 120px;
+	padding-bottom: 60px;
+	background-color: #B22222;
+	text-align: center;
+	
+}
+.contactss img{
+	padding-top: 20px;
+}
+.contactss h1{
+	padding-top: 60px;
+	font-size: 16px;
+	color:#808080; 
 }
